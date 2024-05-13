@@ -8,25 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		CDC03C772BF2532800E2A1A9 /* PasswordManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C762BF2532800E2A1A9 /* PasswordManagerApp.swift */; };
-		CDC03C792BF2532800E2A1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C782BF2532800E2A1A9 /* ContentView.swift */; };
 		CDC03C7B2BF2532900E2A1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC03C7A2BF2532900E2A1A9 /* Assets.xcassets */; };
 		CDC03C7E2BF2532900E2A1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC03C7D2BF2532900E2A1A9 /* Preview Assets.xcassets */; };
-		CDC03C802BF2532900E2A1A9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C7F2BF2532900E2A1A9 /* Persistence.swift */; };
 		CDC03C832BF2532900E2A1A9 /* PasswordManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C812BF2532900E2A1A9 /* PasswordManager.xcdatamodeld */; };
 		CDC03C8A2BF2538000E2A1A9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C892BF2538000E2A1A9 /* HomeVC.swift */; };
 		CDC03C8D2BF253AD00E2A1A9 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C8C2BF253AD00E2A1A9 /* HomeCell.swift */; };
+		CDC03C8F2BF265B500E2A1A9 /* AddNewAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C8E2BF265B500E2A1A9 /* AddNewAccountVC.swift */; };
+		CDC03C912BF26C2800E2A1A9 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C902BF26C2800E2A1A9 /* Toast.swift */; };
+		CDC03C962BF26D5000E2A1A9 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C952BF26D5000E2A1A9 /* ToastView.swift */; };
+		CDC03C982BF26D9600E2A1A9 /* ToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C972BF26D9600E2A1A9 /* ToastModifier.swift */; };
+		CDC03C9A2BF2708600E2A1A9 /* AccountDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C992BF2708600E2A1A9 /* AccountDetailsVC.swift */; };
+		CDC03C9C2BF2859F00E2A1A9 /* PasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03C9B2BF2859F00E2A1A9 /* PasswordManager.swift */; };
+		CDC03C9E2BF2996100E2A1A9 /* color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC03C9D2BF2996100E2A1A9 /* color.xcassets */; };
+		CDC03CAC2BF29D4000E2A1A9 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA32BF29D3F00E2A1A9 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
+		CDC03CAD2BF29D4000E2A1A9 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA42BF29D4000E2A1A9 /* SFPRODISPLAYMEDIUM.OTF */; };
+		CDC03CAE2BF29D4000E2A1A9 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA52BF29D4000E2A1A9 /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		CDC03CAF2BF29D4000E2A1A9 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA62BF29D4000E2A1A9 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		CDC03CB02BF29D4000E2A1A9 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA72BF29D4000E2A1A9 /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		CDC03CB12BF29D4000E2A1A9 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA82BF29D4000E2A1A9 /* SFPRODISPLAYREGULAR.OTF */; };
+		CDC03CB22BF29D4000E2A1A9 /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CA92BF29D4000E2A1A9 /* SFPRODISPLAYTHINITALIC.OTF */; };
+		CDC03CB32BF29D4000E2A1A9 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CAA2BF29D4000E2A1A9 /* SFPRODISPLAYBOLD.OTF */; };
+		CDC03CB42BF29D4000E2A1A9 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = CDC03CAB2BF29D4000E2A1A9 /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		CDC03CBC2BF29F8F00E2A1A9 /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03CBB2BF29F8F00E2A1A9 /* FontBook.swift */; };
+		CDC03CBE2BF2A80200E2A1A9 /* EditAccountDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC03CBD2BF2A80200E2A1A9 /* EditAccountDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDC03C732BF2532800E2A1A9 /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC03C762BF2532800E2A1A9 /* PasswordManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerApp.swift; sourceTree = "<group>"; };
-		CDC03C782BF2532800E2A1A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDC03C7A2BF2532900E2A1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC03C7D2BF2532900E2A1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CDC03C7F2BF2532900E2A1A9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CDC03C822BF2532900E2A1A9 /* PasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManager.xcdatamodel; sourceTree = "<group>"; };
 		CDC03C892BF2538000E2A1A9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		CDC03C8C2BF253AD00E2A1A9 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CDC03C8E2BF265B500E2A1A9 /* AddNewAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccountVC.swift; sourceTree = "<group>"; };
+		CDC03C902BF26C2800E2A1A9 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		CDC03C952BF26D5000E2A1A9 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		CDC03C972BF26D9600E2A1A9 /* ToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModifier.swift; sourceTree = "<group>"; };
+		CDC03C992BF2708600E2A1A9 /* AccountDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsVC.swift; sourceTree = "<group>"; };
+		CDC03C9B2BF2859F00E2A1A9 /* PasswordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManager.swift; sourceTree = "<group>"; };
+		CDC03C9D2BF2996100E2A1A9 /* color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = color.xcassets; sourceTree = "<group>"; };
+		CDC03CA32BF29D3F00E2A1A9 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
+		CDC03CA42BF29D4000E2A1A9 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		CDC03CA52BF29D4000E2A1A9 /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		CDC03CA62BF29D4000E2A1A9 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		CDC03CA72BF29D4000E2A1A9 /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		CDC03CA82BF29D4000E2A1A9 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		CDC03CA92BF29D4000E2A1A9 /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		CDC03CAA2BF29D4000E2A1A9 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		CDC03CAB2BF29D4000E2A1A9 /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		CDC03CB92BF29E4900E2A1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CDC03CBB2BF29F8F00E2A1A9 /* FontBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
+		CDC03CBD2BF2A80200E2A1A9 /* EditAccountDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +92,14 @@
 		CDC03C752BF2532800E2A1A9 /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
+				CDC03CB92BF29E4900E2A1A9 /* Info.plist */,
+				CDC03CA12BF299C600E2A1A9 /* CoreData */,
+				CDC03CA02BF299A700E2A1A9 /* Screen */,
+				CDC03C922BF26D1300E2A1A9 /* Toast */,
 				CDC03C8B2BF2539C00E2A1A9 /* Cell */,
-				CDC03C762BF2532800E2A1A9 /* PasswordManagerApp.swift */,
-				CDC03C782BF2532800E2A1A9 /* ContentView.swift */,
-				CDC03C7A2BF2532900E2A1A9 /* Assets.xcassets */,
-				CDC03C7F2BF2532900E2A1A9 /* Persistence.swift */,
-				CDC03C812BF2532900E2A1A9 /* PasswordManager.xcdatamodeld */,
+				CDC03C9F2BF2998D00E2A1A9 /* Resources */,
+				CDC03CBA2BF29F8000E2A1A9 /* Utils */,
 				CDC03C7C2BF2532900E2A1A9 /* Preview Content */,
-				CDC03C892BF2538000E2A1A9 /* HomeVC.swift */,
 			);
 			path = PasswordManager;
 			sourceTree = "<group>";
@@ -85,6 +118,71 @@
 				CDC03C8C2BF253AD00E2A1A9 /* HomeCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		CDC03C922BF26D1300E2A1A9 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				CDC03C902BF26C2800E2A1A9 /* Toast.swift */,
+				CDC03C952BF26D5000E2A1A9 /* ToastView.swift */,
+				CDC03C972BF26D9600E2A1A9 /* ToastModifier.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		CDC03C9F2BF2998D00E2A1A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDC03CA22BF29D3300E2A1A9 /* Fonts */,
+				CDC03C7A2BF2532900E2A1A9 /* Assets.xcassets */,
+				CDC03C9D2BF2996100E2A1A9 /* color.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDC03CA02BF299A700E2A1A9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CDC03C892BF2538000E2A1A9 /* HomeVC.swift */,
+				CDC03C8E2BF265B500E2A1A9 /* AddNewAccountVC.swift */,
+				CDC03C992BF2708600E2A1A9 /* AccountDetailsVC.swift */,
+				CDC03CBD2BF2A80200E2A1A9 /* EditAccountDetailsVC.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CDC03CA12BF299C600E2A1A9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CDC03C812BF2532900E2A1A9 /* PasswordManager.xcdatamodeld */,
+				CDC03C762BF2532800E2A1A9 /* PasswordManagerApp.swift */,
+				CDC03C9B2BF2859F00E2A1A9 /* PasswordManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CDC03CA22BF29D3300E2A1A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CDC03CAB2BF29D4000E2A1A9 /* SFPRODISPLAYBLACKITALIC.OTF */,
+				CDC03CAA2BF29D4000E2A1A9 /* SFPRODISPLAYBOLD.OTF */,
+				CDC03CA72BF29D4000E2A1A9 /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				CDC03CA52BF29D4000E2A1A9 /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				CDC03CA42BF29D4000E2A1A9 /* SFPRODISPLAYMEDIUM.OTF */,
+				CDC03CA82BF29D4000E2A1A9 /* SFPRODISPLAYREGULAR.OTF */,
+				CDC03CA62BF29D4000E2A1A9 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				CDC03CA92BF29D4000E2A1A9 /* SFPRODISPLAYTHINITALIC.OTF */,
+				CDC03CA32BF29D3F00E2A1A9 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CDC03CBA2BF29F8000E2A1A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDC03CBB2BF29F8F00E2A1A9 /* FontBook.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +243,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC03CAF2BF29D4000E2A1A9 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				CDC03CB42BF29D4000E2A1A9 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				CDC03CAD2BF29D4000E2A1A9 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
 				CDC03C7E2BF2532900E2A1A9 /* Preview Assets.xcassets in Resources */,
+				CDC03CAE2BF29D4000E2A1A9 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				CDC03CB22BF29D4000E2A1A9 /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
+				CDC03CB12BF29D4000E2A1A9 /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				CDC03C9E2BF2996100E2A1A9 /* color.xcassets in Resources */,
+				CDC03CB32BF29D4000E2A1A9 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				CDC03CB02BF29D4000E2A1A9 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				CDC03CAC2BF29D4000E2A1A9 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
 				CDC03C7B2BF2532900E2A1A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,11 +265,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC03C802BF2532900E2A1A9 /* Persistence.swift in Sources */,
+				CDC03C912BF26C2800E2A1A9 /* Toast.swift in Sources */,
 				CDC03C8A2BF2538000E2A1A9 /* HomeVC.swift in Sources */,
-				CDC03C792BF2532800E2A1A9 /* ContentView.swift in Sources */,
 				CDC03C832BF2532900E2A1A9 /* PasswordManager.xcdatamodeld in Sources */,
+				CDC03C8F2BF265B500E2A1A9 /* AddNewAccountVC.swift in Sources */,
+				CDC03C9C2BF2859F00E2A1A9 /* PasswordManager.swift in Sources */,
 				CDC03C8D2BF253AD00E2A1A9 /* HomeCell.swift in Sources */,
+				CDC03CBC2BF29F8F00E2A1A9 /* FontBook.swift in Sources */,
+				CDC03CBE2BF2A80200E2A1A9 /* EditAccountDetailsVC.swift in Sources */,
+				CDC03C9A2BF2708600E2A1A9 /* AccountDetailsVC.swift in Sources */,
+				CDC03C962BF26D5000E2A1A9 /* ToastView.swift in Sources */,
+				CDC03C982BF26D9600E2A1A9 /* ToastModifier.swift in Sources */,
 				CDC03C772BF2532800E2A1A9 /* PasswordManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +412,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,6 +441,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
